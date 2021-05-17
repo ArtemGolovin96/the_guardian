@@ -1,0 +1,68 @@
+.app {
+  margin: auto;
+  width: 1000px;
+  height: 800px;
+  border: 1px solid blue;
+  border-radius: 20px;
+}
+
+.header {
+  background-color: cornflowerblue;
+  height: 100px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-top: -21px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputform {
+  text-align: center;
+  margin: 20px;
+}
+
+.input {
+  width: 300px;
+  height: 20px;
+}
+
+.input:hover {
+  border: 1px solid blue;
+  border-radius: 4px;
+}
+
+
+.button {
+  background-color: cyan;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 45px;
+  margin: 20px;
+}
+
+.button:hover {
+  background-color: darkmagenta;
+  border: 1px solid yellow;
+  color: white;
+}
+
+.newslist {
+  border: 1px solid lightblue;
+  height: 550px;
+  border-radius: 20px;
+  background-color: lightcyan;
+}
+
+.pnews {
+  font-size: 1.5em;
+}
+
+.errdata {
+  text-align: center;
+  font-size: 50px;
+}
